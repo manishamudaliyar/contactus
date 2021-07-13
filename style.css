@@ -1,0 +1,38 @@
+body{
+  padding:  0px;
+  margin : 0px;
+  font-family: sans-serif;
+}
+
+.container{
+  width:  120px;
+  margin : auto;
+  overflow: hidden;
+}
+
+.contact-section{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9), url(contact.png));	
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#contact-section .container h2{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(238,235,235);
+  letter-spacing: 2px;
+}
+
+#contact-section .container p{
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
